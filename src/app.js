@@ -1,20 +1,19 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
-import Vue from 'vue';
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
+import Vue from 'vue'
 
-import Antd from 'ant-design-vue';
+import Antd from 'ant-design-vue'
 
-
-import App from './App';
-import router from './router';
-import store from './store';
-import filters from './filters';
-import directives from './directives';
+import App from './App'
+import router from './router'
+import store from './store'
+import filters from './filters'
+import directives from './directives'
 
 import '@/assets/scss'
-import 'ant-design-vue/dist/antd.css';
+import 'ant-design-vue/dist/antd.css'
 
-Vue.use(Antd);
+Vue.use(Antd)
 
 Vue.use(filters)
 Vue.use(directives)

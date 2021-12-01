@@ -1,7 +1,7 @@
-import directives from './directives';
+import directives from './directives'
 
 export default Vue => {
-  for (let [key, directive] of Object.entries(directives)) {
-    Vue.directive(key, directive);
+  for (const [key, directive] of Object.entries(directives)) {
+    Vue.directive(key, directive)
   }
 }

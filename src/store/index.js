@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import state from './state';
-import getters from './getters';
-import mutations from './mutations';
-import actions from './actions';
-import * as modules from './modules';
+import state from './state'
+import getters from './getters'
+import mutations from './mutations'
+import actions from './actions'
+import * as modules from './modules'
 
 console.log(modules)
 
@@ -19,4 +19,4 @@ const store = new Vuex.Store({
   modules
 })
 
-export default store;
+export default store

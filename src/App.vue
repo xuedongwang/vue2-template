@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import BlankLayout from './layouts/blank-layout';
-import CommonLayout from './layouts/common-layout';
+import BlankLayout from './layouts/blank-layout'
+import CommonLayout from './layouts/common-layout'
 export default {
   components: {
     BlankLayout,
     CommonLayout
-  },
+  }
 }
 </script>
 

@@ -7,6 +7,6 @@ const routes = [
     path: '/login',
     component: () => import('@/pages/login')
   }
-];
+]
 
-export default routes;
+export default routes
